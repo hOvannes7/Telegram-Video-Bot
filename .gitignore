@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv
+
+# Environment variables (contains secrets)
+.env
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache
+cache/
+*.cache
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# FFmpeg (will be downloaded by user)
+ffmpeg/
+
+# Temporary files
+*.tmp
+*.temp
